@@ -1,0 +1,551 @@
+[
+    {
+        "productName": "Wireless Bluetooth Headphones",
+        "productImage": "https://example.com/products/headphones.jpg",
+        "description": "High-quality wireless Bluetooth headphones with noise-canceling features.",
+        "price": 59.99,
+        "category": "Electronics",
+        "ratings": 4.5,
+        "createdAt": "2024-08-15T10:25:00Z"
+    },
+    {
+        "productName": "Smartphone 12 Pro",
+        "productImage": "https://example.com/products/smartphone.jpg",
+        "description": "Latest smartphone with 128GB storage, dual cameras, and a 6.1-inch display.",
+        "price": 999.99,
+        "category": "Mobile Phones",
+        "ratings": 4.8,
+        "createdAt": "2024-08-14T11:15:00Z"
+    },
+    {
+        "productName": "4K Ultra HD Smart TV",
+        "productImage": "https://example.com/products/tv.jpg",
+        "description": "55-inch 4K Ultra HD Smart TV with HDR and streaming capabilities.",
+        "price": 499.99,
+        "category": "Electronics",
+        "ratings": 4.6,
+        "createdAt": "2024-08-14T13:30:00Z"
+    },
+    {
+        "productName": "Gaming Laptop",
+        "productImage": "https://example.com/products/laptop.jpg",
+        "description": "High-performance gaming laptop with RTX 3060, 16GB RAM, and 1TB SSD.",
+        "price": 1499.99,
+        "category": "Computers",
+        "ratings": 4.7,
+        "createdAt": "2024-08-13T09:45:00Z"
+    },
+    {
+        "productName": "Electric Toothbrush",
+        "productImage": "https://example.com/products/toothbrush.jpg",
+        "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
+        "price": 29.99,
+        "category": "Health & Personal Care",
+        "ratings": 4.3,
+        "createdAt": "2024-08-12T08:20:00Z"
+    },
+    {
+        "productName": "Running Shoes",
+        "productImage": "https://example.com/products/shoes.jpg",
+        "description": "Comfortable and durable running shoes with excellent grip.",
+        "price": 79.99,
+        "category": "Footwear",
+        "ratings": 4.5,
+        "createdAt": "2024-08-12T14:10:00Z"
+    },
+    {
+        "productName": "Digital Camera",
+        "productImage": "https://example.com/products/camera.jpg",
+        "description": "Compact digital camera with 20MP resolution and 4K video recording.",
+        "price": 299.99,
+        "category": "Cameras",
+        "ratings": 4.6,
+        "createdAt": "2024-08-11T10:00:00Z"
+    },
+    {
+        "productName": "Espresso Machine",
+        "productImage": "https://example.com/products/espresso.jpg",
+        "description": "Professional-grade espresso machine with built-in grinder and frother.",
+        "price": 399.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.4,
+        "createdAt": "2024-08-10T09:50:00Z"
+    },
+    {
+        "productName": "Smartwatch Series 6",
+        "productImage": "https://example.com/products/smartwatch.jpg",
+        "description": "Smartwatch with fitness tracking, heart rate monitor, and GPS.",
+        "price": 349.99,
+        "category": "Wearables",
+        "ratings": 4.7,
+        "createdAt": "2024-08-09T12:35:00Z"
+    },
+    {
+        "productName": "Cordless Vacuum Cleaner",
+        "productImage": "https://example.com/products/vacuum.jpg",
+        "description": "Lightweight cordless vacuum cleaner with powerful suction.",
+        "price": 199.99,
+        "category": "Home Appliances",
+        "ratings": 4.5,
+        "createdAt": "2024-08-08T11:20:00Z"
+    },
+    {
+        "productName": "Leather Wallet",
+        "productImage": "https://example.com/products/wallet.jpg",
+        "description": "Genuine leather wallet with RFID blocking and multiple card slots.",
+        "price": 49.99,
+        "category": "Accessories",
+        "ratings": 4.4,
+        "createdAt": "2024-08-07T10:15:00Z"
+    },
+    {
+        "productName": "Wireless Charging Pad",
+        "productImage": "https://example.com/products/charging-pad.jpg",
+        "description": "Fast wireless charging pad compatible with Qi-enabled devices.",
+        "price": 29.99,
+        "category": "Electronics",
+        "ratings": 4.3,
+        "createdAt": "2024-08-07T15:25:00Z"
+    },
+    {
+        "productName": "Bluetooth Speaker",
+        "productImage": "https://example.com/products/speaker.jpg",
+        "description": "Portable Bluetooth speaker with deep bass and 12-hour battery life.",
+        "price": 89.99,
+        "category": "Audio",
+        "ratings": 4.6,
+        "createdAt": "2024-08-06T09:55:00Z"
+    },
+    {
+        "productName": "Noise-Canceling Earbuds",
+        "productImage": "https://example.com/products/earbuds.jpg",
+        "description": "Wireless noise-canceling earbuds with long battery life and charging case.",
+        "price": 129.99,
+        "category": "Audio",
+        "ratings": 4.5,
+        "createdAt": "2024-08-05T13:45:00Z"
+    },
+    {
+        "productName": "Adjustable Office Chair",
+        "productImage": "https://example.com/products/office-chair.jpg",
+        "description": "Ergonomic office chair with lumbar support and adjustable height.",
+        "price": 179.99,
+        "category": "Furniture",
+        "ratings": 4.7,
+        "createdAt": "2024-08-04T12:10:00Z"
+    },
+    {
+        "productName": "Fitness Tracker Band",
+        "productImage": "https://example.com/products/fitness-tracker.jpg",
+        "description": "Fitness tracker band with heart rate monitor and sleep tracking.",
+        "price": 39.99,
+        "category": "Wearables",
+        "ratings": 4.3,
+        "createdAt": "2024-08-03T11:30:00Z"
+    },
+    {
+        "productName": "Wireless Gaming",
+        "productImage": "https://example.com/products/gaming-laptop.jpg",
+        "description": "High-performance gaming laptop with 16GB RAM, 1TB SSD, and NVIDIA RTX 3060.",
+        "price": 1499.99,
+        "category": "Computers",
+        "ratings": 4.7,
+        "createdAt": "2024-08-13T09:45:00Z"
+    },
+    {
+        "productName": "Ergonomic Office Chair",
+        "productImage": "https://example.com/products/office-chair.jpg",
+        "description": "Comfortable ergonomic office chair with lumbar support and adjustable height.",
+        "price": 199.99,
+        "category": "Furniture",
+        "ratings": 4.4,
+        "createdAt": "2024-08-13T08:20:00Z"
+    },
+    {
+        "productName": "Digital DSLR Camera",
+        "productImage": "https://example.com/products/camera.jpg",
+        "description": "24.1 MP DSLR camera with 18-55mm lens, full HD video recording, and Wi-Fi.",
+        "price": 799.99,
+        "category": "Cameras",
+        "ratings": 4.6,
+        "createdAt": "2024-08-12T14:10:00Z"
+    },
+    {
+        "productName": "Portable External Hard Drive",
+        "productImage": "https://example.com/products/external-hard-drive.jpg",
+        "description": "2TB portable external hard drive with USB 3.0 connectivity.",
+        "price": 79.99,
+        "category": "Storage Devices",
+        "ratings": 4.5,
+        "createdAt": "2024-08-12T16:45:00Z"
+    },
+    {
+        "productName": "Smartwatch Series 6",
+        "productImage": "https://example.com/products/smartwatch.jpg",
+        "description": "Latest smartwatch with fitness tracking, heart rate monitor, and GPS.",
+        "price": 399.99,
+        "category": "Wearables",
+        "ratings": 4.7,
+        "createdAt": "2024-08-11T12:35:00Z"
+    },
+    {
+        "productName": "Noise Cancelling Earbuds",
+        "productImage": "https://example.com/products/earbuds.jpg",
+        "description": "True wireless noise-canceling earbuds with a charging case.",
+        "price": 149.99,
+        "category": "Audio",
+        "ratings": 4.6,
+        "createdAt": "2024-08-11T15:20:00Z"
+    },
+    {
+        "productName": "Home Espresso Machine",
+        "productImage": "https://example.com/products/espresso-machine.jpg",
+        "description": "Compact home espresso machine with a milk frother and 15-bar pressure.",
+        "price": 299.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.5,
+        "createdAt": "2024-08-10T10:10:00Z"
+    },
+    {
+        "productName": "Electric Standing Desk",
+        "productImage": "https://example.com/products/standing-desk.jpg",
+        "description": "Adjustable electric standing desk with memory presets and cable management.",
+        "price": 399.99,
+        "category": "Furniture",
+        "ratings": 4.8,
+        "createdAt": "2024-08-10T09:30:00Z"
+    },
+    {
+        "productName": "Smart Thermostat",
+        "productImage": "https://example.com/products/thermostat.jpg",
+        "description": "Wi-Fi enabled smart thermostat with remote control and energy-saving features.",
+        "price": 249.99,
+        "category": "Home Automation",
+        "ratings": 4.4,
+        "createdAt": "2024-08-09T13:55:00Z"
+    },
+    {
+        "productName": "Wireless Charging Pad",
+        "productImage": "https://example.com/products/charging-pad.jpg",
+        "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+        "price": 29.99,
+        "category": "Mobile Accessories",
+        "ratings": 4.3,
+        "createdAt": "2024-08-09T14:25:00Z"
+    },
+    {
+        "productName": "Electric Kettle",
+        "productImage": "https://example.com/products/kettle.jpg",
+        "description": "Stainless steel electric kettle with a 1.7L capacity and rapid boiling.",
+        "price": 49.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-08-08T11:40:00Z"
+    },
+    {
+        "productName": "Yoga Mat",
+        "productImage": "https://example.com/products/yoga-mat.jpg",
+        "description": "Non-slip yoga mat with extra thickness for comfort and durability.",
+        "price": 39.99,
+        "category": "Fitness",
+        "ratings": 4.5,
+        "createdAt": "2024-08-08T12:50:00Z"
+    },
+    {
+        "productName": "Instant Pot Pressure Cooker",
+        "productImage": "https://example.com/products/instant-pot.jpg",
+        "description": "7-in-1 programmable pressure cooker, slow cooker, and rice cooker.",
+        "price": 89.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.7,
+        "createdAt": "2024-08-07T15:05:00Z"
+    },
+    {
+        "productName": "Electric Toothbrush",
+        "productImage": "https://example.com/products/toothbrush.jpg",
+        "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
+        "price": 79.99,
+        "category": "Personal Care",
+        "ratings": 4.4,
+        "createdAt": "2024-08-07T16:35:00Z"
+    },
+    {
+        "productName": "Noise Cancelling Over-Ear Headphones",
+        "productImage": "https://example.com/products/over-ear-headphones.jpg",
+        "description": "Over-ear wireless headphones with active noise canceling and long battery life.",
+        "price": 199.99,
+        "category": "Audio",
+        "ratings": 4.8,
+        "createdAt": "2024-08-06T10:15:00Z"
+    },
+    {
+        "productName": "Wireless Gaming Mouse",
+        "productImage": "https://example.com/products/gaming-mouse.jpg",
+        "description": "High-precision wireless gaming mouse with customizable buttons and RGB lighting.",
+        "price": 89.99,
+        "category": "Computers",
+        "ratings": 4.7,
+        "createdAt": "2024-08-06T12:45:00Z"
+    },
+    {
+        "productName": "Robot Vacuum Cleaner",
+        "productImage": "https://example.com/products/robot-vacuum.jpg",
+        "description": "Smart robot vacuum cleaner with Wi-Fi connectivity and voice control.",
+        "price": 299.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-08-05T14:00:00Z"
+    },
+    {
+        "productName": "Bluetooth Speaker",
+        "productImage": "https://example.com/products/bluetooth-speaker.jpg",
+        "description": "Portable Bluetooth speaker with powerful sound and long battery life.",
+        "price": 59.99,
+        "category": "Audio",
+        "ratings": 4.5,
+        "createdAt": "2024-08-05T13:20:00Z"
+    },
+    {
+        "productName": "Electric Shaver",
+        "productImage": "https://example.com/products/electric-shaver.jpg",
+        "description": "Rechargeable electric shaver with a precision trimmer and wet/dry use.",
+        "price": 99.99,
+        "category": "Personal Care",
+        "ratings": 4.4,
+        "createdAt": "2024-08-04T15:50:00Z"
+    },
+    {
+        "productName": "Leather Wallet",
+        "productImage": "https://example.com/products/wallet.jpg",
+        "description": "Premium leather wallet with RFID blocking and multiple card slots.",
+        "price": 49.99,
+        "category": "Accessories",
+        "ratings": 4.7,
+        "createdAt": "2024-08-04T16:10:00Z"
+    },
+    {
+        "productName": "Fitness Tracker",
+        "productImage": "https://example.com/products/fitness-tracker.jpg",
+        "description": "Waterproof fitness tracker with heart rate monitor and sleep tracking.",
+        "price": 79.99,
+        "category": "Wearables",
+        "ratings": 4.6,
+        "createdAt": "2024-08-03T11:25:00Z"
+    },
+    {
+        "productName": "Smart LED Light Bulb",
+        "productImage": "https://example.com/products/smart-bulb.jpg",
+        "description": "Wi-Fi enabled smart LED light bulb with customizable colors and voice control.",
+        "price": 29.99,
+        "category": "Home Automation",
+        "ratings": 4.5,
+        "createdAt": "2024-08-03T13:40:00Z"
+    },
+    {
+        "productName": "Wireless Keyboard and Mouse Combo",
+        "productImage": "https://example.com/products/keyboard-mouse.jpg",
+        "description": "Slim wireless keyboard and mouse combo with a long battery life.",
+        "price": 49.99,
+        "category": "Computers",
+        "ratings": 4.4,
+        "createdAt": "2024-08-02T14:55:00Z"
+    },
+    {
+        "productName": "Smart Home Security Camera",
+        "productImage": "https://example.com/products/security-camera.jpg",
+        "description": "1080p smart home security camera with night vision and two-way audio.",
+        "price": 89.99,
+        "category": "Home Security",
+        "ratings": 4.7,
+        "createdAt": "2024-08-02T12:30:00Z"
+    },
+    {
+        "productName": "Electric Pressure Washer",
+        "productImage": "https://example.com/products/pressure-washer.jpg",
+        "description": "2000 PSI electric pressure washer with multiple nozzles and a soap dispenser.",
+        "price": 149.99,
+        "category": "Outdoor Equipment",
+        "ratings": 4.6,
+        "createdAt": "2024-08-01T10:45:00Z"
+    },
+    {
+        "productName": "Gaming Keyboard",
+        "productImage": "https://example.com/products/gaming-keyboard.jpg",
+        "description": "Mechanical gaming keyboard with customizable RGB lighting and macro keys.",
+        "price": 129.99,
+        "category": "Computers",
+        "ratings": 4.8,
+        "createdAt": "2024-08-01T14:20:00Z"
+    },
+    {
+        "productName": "Stainless Steel Cookware Set",
+        "productImage": "https://example.com/products/cookware-set.jpg",
+        "description": "10-piece stainless steel cookware set with glass lids and even heat distribution.",
+        "price": 199.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.7,
+        "createdAt": "2024-07-31T11:10:00Z"
+    },
+    {
+        "productName": "Portable Air Conditioner",
+        "productImage": "https://example.com/products/portable-ac.jpg",
+        "description": "Portable air conditioner with 10,000 BTU, dehumidifier, and remote control.",
+        "price": 349.99,
+        "category": "Home Appliances",
+        "ratings": 4.5,
+        "createdAt": "2024-07-31T12:55:00Z"
+    },
+    {
+        "productName": "Digital Smart Scale",
+        "productImage": "https://example.com/products/smart-scale.jpg",
+        "description": "Bluetooth enabled digital smart scale with body composition analysis.",
+        "price": 49.99,
+        "category": "Health & Wellness",
+        "ratings": 4.4,
+        "createdAt": "2024-07-30T13:10:00Z"
+    },
+    {
+        "productName": "Wireless Charging Car Mount",
+        "productImage": "https://example.com/products/car-mount.jpg",
+        "description": "Automatic clamping wireless charging car mount for smartphones.",
+        "price": 39.99,
+        "category": "Mobile Accessories",
+        "ratings": 4.3,
+        "createdAt": "2024-07-30T14:25:00Z"
+    },
+    {
+        "productName": "Electric Blanket",
+        "productImage": "https://example.com/products/electric-blanket.jpg",
+        "description": "Soft electric blanket with adjustable heat settings and auto shut-off.",
+        "price": 79.99,
+        "category": "Home Comfort",
+        "ratings": 4.6,
+        "createdAt": "2024-07-29T11:40:00Z"
+    },
+    {
+        "productName": "Smart Light Switch",
+        "productImage": "https://example.com/products/light-switch.jpg",
+        "description": "Wi-Fi enabled smart light switch with voice control and scheduling.",
+        "price": 39.99,
+        "category": "Home Automation",
+        "ratings": 4.5,
+        "createdAt": "2024-07-29T12:50:00Z"
+    },
+    {
+        "productName": "Electric Coffee Grinder",
+        "productImage": "https://example.com/products/coffee-grinder.jpg",
+        "description": "Electric coffee grinder with stainless steel blades and multiple grind settings.",
+        "price": 49.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.4,
+        "createdAt": "2024-07-28T11:05:00Z"
+    },
+    {
+        "productName": "Wireless Video Doorbell",
+        "productImage": "https://example.com/products/video-doorbell.jpg",
+        "description": "1080p wireless video doorbell with motion detection and two-way audio.",
+        "price": 149.99,
+        "category": "Home Security",
+        "ratings": 4.7,
+        "createdAt": "2024-07-28T12:20:00Z"
+    },
+    {
+        "productName": "Rechargeable Handheld Vacuum",
+        "productImage": "https://example.com/products/handheld-vacuum.jpg",
+        "description": "Cordless rechargeable handheld vacuum with powerful suction and multiple attachments.",
+        "price": 69.99,
+        "category": "Home Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-07-27T11:35:00Z"
+    },
+    {
+        "productName": "Electric Pasta Maker",
+        "productImage": "https://example.com/products/pasta-maker.jpg",
+        "description": "Automatic electric pasta maker with multiple pasta shapes and easy cleaning.",
+        "price": 129.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.7,
+        "createdAt": "2024-07-27T12:45:00Z"
+    },
+    {
+        "productName": "Wireless Charging Power Bank",
+        "productImage": "https://example.com/products/power-bank.jpg",
+        "description": "10000mAh wireless charging power bank with fast charging support.",
+        "price": 59.99,
+        "category": "Mobile Accessories",
+        "ratings": 4.5,
+        "createdAt": "2024-07-26T14:10:00Z"
+    },
+    {
+        "productName": "Electric Meat Grinder",
+        "productImage": "https://example.com/products/meat-grinder.jpg",
+        "description": "Electric meat grinder with stainless steel blades and multiple grinding plates.",
+        "price": 99.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-07-26T12:25:00Z"
+    },
+    {
+        "productName": "Bluetooth Headset",
+        "productImage": "https://example.com/products/bluetooth-headset.jpg",
+        "description": "Lightweight Bluetooth headset with noise-canceling microphone and long battery life.",
+        "price": 69.99,
+        "category": "Audio",
+        "ratings": 4.4,
+        "createdAt": "2024-07-25T13:50:00Z"
+    },
+    {
+        "productName": "Smart Door Lock",
+        "productImage": "https://example.com/products/door-lock.jpg",
+        "description": "Keyless smart door lock with fingerprint scanner and remote access.",
+        "price": 199.99,
+        "category": "Home Security",
+        "ratings": 4.7,
+        "createdAt": "2024-07-25T12:15:00Z"
+    },
+    {
+        "productName": "Portable Bluetooth Printer",
+        "productImage": "https://example.com/products/bluetooth-printer.jpg",
+        "description": "Compact portable Bluetooth printer for printing photos and documents on the go.",
+        "price": 129.99,
+        "category": "Printers",
+        "ratings": 4.5,
+        "createdAt": "2024-07-24T11:30:00Z"
+    },
+    {
+        "productName": "Electric Air Fryer",
+        "productImage": "https://example.com/products/air-fryer.jpg",
+        "description": "5.8-quart electric air fryer with digital display and customizable presets.",
+        "price": 119.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.6,
+        "createdAt": "2024-07-24T10:20:00Z"
+    },
+    {
+        "productName": "Smart Garden System",
+        "productImage": "https://example.com/products/smart-garden.jpg",
+        "description": "Automated indoor smart garden system with LED grow lights and self-watering.",
+        "price": 199.99,
+        "category": "Garden",
+        "ratings": 4.7,
+        "createdAt": "2024-07-23T14:45:00Z"
+    },
+    {
+        "productName": "Smartwatch Band",
+        "productImage": "https://example.com/products/smartwatch-band.jpg",
+        "description": "Replacement smartwatch band made from durable silicone material.",
+        "price": 19.99,
+        "category": "Wearables",
+        "ratings": 4.4,
+        "createdAt": "2024-07-23T13:10:00Z"
+    },
+    {
+        "productName": "Smart Plug",
+        "productImage": "https://example.com/products/smart-plug.jpg",
+        "description": "Wi-Fi enabled smart plug with remote control and energy monitoring.",
+        "price": 24.99,
+        "category": "Home Automation",
+        "ratings": 4.5,
+        "createdAt": "2024-07-22T15:25:00Z"
+    }
+]
