@@ -36,66 +36,67 @@ async function run() {
     // await client.connect();
     const Product = client.db("prod_commerce").collection("products");
 
+
     app.get('/products', async (req, res) => {
-        const { category, brand, minPrice, maxPrice, search, page = 1, limit = 10, order,sort } = req.query;
-        const products = await Product.aggregate([
-            {
-              $match: {
-                Category: category, // Filter by category
-                brand: brand, // Filter by brand name
-                price: { $gte: minPrice, $lte: maxPrice } // Filter by price range
-              }
-            },
-            {
-                $sort: { [sort]: order === 'desc' ? -1 : 1 }// Sort by price in descending order (high to low)
-            },
-            {
-              $skip: (page - 1) * limit // Skip documents for pagination
-            },
-            {
-              $limit: limit // Limit the number of documents for pagination
-            }
-          ]).toArray();
+        const { category, brand, minPrice, maxPrice, search, page = 1, limit = 10, sort } = req.query;
 
-        // let filter = {};
+        let filter = {};
 
-        // if (category) filter.category = category;
-        // if (brand) filter.brand = brand;
-        // if (minPrice || maxPrice) {
-        //     filter.price = {};
-        //     if (minPrice) filter.price.$gte = parseInt(minPrice);
-        //     if (maxPrice) filter.price.$lte = parseint(maxPrice);
-        // }
-        // if (search) filter.name = { $regex: search, $options: 'i' };
+        if (category) filter.category = category;
+        if (brand) filter.brandname = brand;
+        if (minPrice || maxPrice) {
+            filter.price = {};
+            if (minPrice) filter.price.$gte = parseFloat(minPrice);
+            if (maxPrice) filter.price.$lte = parseFloat(maxPrice);
+        }
+        if (search) filter.productname = { $regex: search, $options: 'i' };
 
         const pageNumber = parseInt(page);
         const pageSize = parseInt(limit);
-        // const skip = (pageNumber - 1) * pageSize;
+        const skip = (pageNumber - 1) * pageSize;
 
-        // let sortOrder = {};
-        // if (sort === 'priceLowToHigh') sortOrder.price = 1;        // Ascending
-        // if (sort === 'priceHighToLow') sortOrder.price = -1;   // Descending
-        // if (sort === 'newest') sortOrder.createdAt = -1;       // Newest first
-        // if (sort === 'oldest') sortOrder.createdAt = 1;        // Oldest first
+        let sortOrder = {};
+        if (sort === 'priceLowToHigh') sortOrder.price = 1;        // Ascending
+        else if (sort === 'priceHighToLow') sortOrder.price = -1;   // Descending
+        else if (sort === 'newest') sortOrder.createdAt = -1;       // Newest first
+        else if (sort === 'oldest') sortOrder.createdAt = 1;        // Oldest first
 
+        try {
+            const products = await Product.find(filter)
+                .skip(skip)
+                .limit(pageSize)
+                .sort(sortOrder).toArray();
 
-        //     const products = await Product.find(filter)
-        //         .skip(skip)
-        //         .limit(pageSize)
-        //         .sort(sortOrder).toArray()
-
-            const totalProducts = await Product.countDocuments();
+            const totalProducts = await Product.countDocuments(filter);
             const totalPages = Math.ceil(totalProducts / pageSize);
-            res.send(products)
-            // res.send({products, totalProducts,totalPages,currentPage: pageNumber})
-            // res.json({
-            //     products,
-            //     totalProducts,
-            //     totalPages,
-            //     currentPage: pageNumber,
-            // });
 
+            res.status(200).json({
+                products,
+                totalProducts,
+                totalPages,
+                currentPage: pageNumber,
+            });
+        } catch (err) {
+            res.status(500).json({ message: err.message });
+        }
     });
+
+
+    // app.get('/products', async (req, res) => {
+    //     console.log(req.query);
+    //     const ratings = parseFloat(req.query.ratings)
+
+    //     const products = await Product.find({
+    //         "$or": [
+    //             {
+    //                 "category": {$regex:req.query.category}
+    //             }
+    //         ]
+    //     }).toArray()
+    //     res.send(products)
+
+
+    // });
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
