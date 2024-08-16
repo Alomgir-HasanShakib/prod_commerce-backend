@@ -82,21 +82,7 @@ async function run() {
     });
 
 
-    // app.get('/products', async (req, res) => {
-    //     console.log(req.query);
-    //     const ratings = parseFloat(req.query.ratings)
-
-    //     const products = await Product.find({
-    //         "$or": [
-    //             {
-    //                 "category": {$regex:req.query.category}
-    //             }
-    //         ]
-    //     }).toArray()
-    //     res.send(products)
-
-
-    // });
+  
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
